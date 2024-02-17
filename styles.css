@@ -1,0 +1,19 @@
+.special1{
+    background-color:cyan;
+    opacity: 0.5;
+    ;
+}
+.special{
+    color: red;
+    font: 1em sans-serif;
+    size: 10px;
+}
+body header nav a{
+     background-color: yellow;
+  color: black;
+  border: 2px solid grey;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

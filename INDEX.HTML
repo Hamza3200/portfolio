@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
- <nav>   
-  <a href="#home" > home </a>
-  <a href="#about"> about </a>
-  <a href="#work"> work </a>
-  <a href="#resume"> resume </a>
-  <a href="#contact"> contact </a>
+ <nav style="text-align: center;">   
+  <a href="#home" style="color:blue; font: roboto"> Home </a>
+  <a style="color:blue; font:roboto" href="#about"> About </a>
+  <a style="color:blue; font: roboto" href="#work"> Work </a>
+  <a style="color: blue; font:roboto" href="#resume"> Resume </a>
+  <a style="color: blue; font:roboto; " href="#contact"> Contact </a>
 </nav>
 </header>  
 <!-- creation de la section home -->
@@ -25,11 +26,11 @@
     <p> <h2> Bonjour à tous .</h2></p>  </a> </section>  
 
 <!-- creation de la section work-->
-<section> <a name="work"> <audio controls> <source src="./audios/_02.-Ana-Walaftek.mp3" type="audio/ogg">
+<section class="special1"> <a name="work"> <audio controls> <source src="./audios/_02.-Ana-Walaftek.mp3" type="audio/ogg">
   </audio></a> </section>  
 
   <!-- creation section resume-->
-<section> <img src="./images/creativite-2.jpg" alt="Please try again">
+<section> <img src="./images/creativite-2.jpg" right bottom no-repeat, alt="Please try again">
     <a name="resume"> </a></section>  
     
     <!-- creation section contact -->
@@ -37,21 +38,21 @@
 <table>
     <table border="1">
         <tr>
-          <th style="color:red;">Company</th>
-          <th style="color:red;">Contact</th>
-          <th style="color:red;">Duration</th>
+          <th class="special"> Company </th>
+          <th class="special"> Contact </th>
+          <th class="special"> Duration </th>
         </tr>
         <tr>
-          <td style="color:blue;">Abc company</td>
-          <td style="color:blue;">123456789</td>
-          <td style="color:blue;"> 11 years </td>
+          <td> Abc company </td>
+          <td> 123456789 </td>
+          <td> 11 years </td>
         </tr>
 </table>
 
 <ul>
     <li> Cell number</li>
     <li> Adress </li>
-    <li> E-mail </li>
+    <li> Email </li>
   </ul>
 
       <!-- creation a new section to use forms -->
